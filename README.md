@@ -1,7 +1,7 @@
 # reproductor-multimedia-BETA-
 Primera versión del reproductor multimedia flotante para Windows
 
-# 🎵 Windows Media Player Widget (v1.0)
+# 🎵 Windows Media Player Widget (v0.2)
 
 Un reproductor flotante minimalista para Windows construido en Python que muestra la canción en reproducción y la portada del álbum usando controles del sistema.
 
