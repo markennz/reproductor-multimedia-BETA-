@@ -1,27 +1,13 @@
-# reproductor-multimedia-BETA-
-Primera versión del reproductor multimedia flotante para Windows
+# Mini Reproductor Windows 🎵
 
-# 🎵 Windows Media Player Widget (v0.3)
+Un widget flotante, ligero que muestra y controla la música que está sonando en tu PC (Spotify, YouTube, navegadores, etc.) a través del sistema multimedia nativo de Windows (SMTC).
 
-Un widget flotante minimalista, moderno y sin bordes para Windows que se integra nativamente con los controles multimedia del sistema (compatible con Spotify, YouTube, VLC, etc.).
+## ✨ Características Principales
 
-## ✨ Características Principales (v0.3)
-
-* 🎤 **Modo Karaoke (Letras Sincronizadas):** Extrae automáticamente las letras desde *LRCLib*, realiza desplazamiento (*scroll*) en tiempo real y resalta la frase activa.
-* 🎨 **Colores Adaptativos Dinámicos:** La interfaz, el progreso y el texto destacado cambian de color en tiempo real basándose en los tonos dominantes de la carátula de la canción.
-* 🌊 **Redimensión Fluida y Optimizada:** Ajusta el tamaño de la ventana con el tirador integrado sin tirones ni bloques grises, consumiendo mínimos recursos.
-* 🔄 **Modo Normal y Modo Mini:** Cambia entre la vista completa con detalles y el modo compacto de doble clic.
-* 📌 **Opciones Avanzadas:** 
-  * Ventana siempre encima (*Topmost*).
-  * Control deslizante de opacidad de la ventana (30% - 100%).
-  * Inicio automático con Windows (con opción de autostart).
-  * Minimizado inteligente a la bandeja del sistema (*System Tray*).
-
-## 📥 Descarga rápida
-Puedes descargar el ejecutable listo para usar sin necesidad de instalar Python en la sección de [Releases](../../releases/tag/v1.0.0).
-
-## 🛠️ Tecnologías utilizadas
-- Python 3
-- CustomTkinter
-- Pillow (PIL)
-- WinRT (Windows Media Transport Controls)
+* **Integración Nativa (SMTC):** Funciona con cualquier aplicación de Windows que reporte multimedia (Spotify, Chrome, Edge, VLC, etc.).
+* **Letras Sincronizadas:** Busca y muestra automáticamente la letra de la canción (con efecto karaoke) gracias a la API de LRCLib.
+* **Diseño Fluido y Escalable:** Construido sobre PyQt6, soporta escalado DPI nativo. Nada se ve borroso, sin importar la resolución de tu monitor.
+* **Modo Mini:** Haz doble clic en la carátula para colapsar el reproductor a su tamaño mínimo, ideal para dejarlo en una esquina de la pantalla.
+* **Colores Dinámicos:** La interfaz adapta automáticamente su paleta de colores extrayendo el color de acento de la carátula de la canción actual.
+* **Bandeja del Sistema:** Opción para minimizar el reproductor a la bandeja del sistema (System Tray) para que no moleste cuando no lo necesites.
+* **Siempre Encima (Topmost):** Mantén el widget siempre visible por encima del resto de ventanas
