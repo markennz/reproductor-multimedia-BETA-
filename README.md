@@ -4,8 +4,6 @@ Widget flotante, ligero y personalizable para Windows que muestra y controla la 
 
 Reconstruido sobre **PyQt6** con renderizado vectorial nativo para verse nítido en cualquier escala DPI (100 %, 125 %, 150 %...) y configuración multimonitor.
 
-![Mini Reproductor Windows](https://via.placeholder.com/600x300.png?text=A%C3%B1ade+aqui+una+captura+de+tu+reproductor)
-
 ---
 
 ## ✨ Características Principales
